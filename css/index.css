@@ -86,7 +86,6 @@ h1 {
 a {
 	font-size: 150%;
 	text-decoration: none;
-	margin-left: 40px;
 	color: grey;
 
 }
@@ -159,16 +158,76 @@ img.middle-img {
 
 
 /*****************************************************/
-@media (max-width: 500px) {
-    .container {
+@media screen and (max-width: 500px) {
+    .overridewflex1 {
+        display: flex;
+        flex-direction: column-reverse;
+        max-width: 100%;
+        margin-bottom: -35px;
+    
+    }
+    .overridewflex1 a {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        align-items: center;
+        padding-top: 10px;
+        background-color: white;
+        border: 1px solid black;
+        height: 30px;
+        justify-content: center;
+    }
+    .logo {
+        margin: auto;
+    }
+    .pic {
+        display: none;
+    }
+    .headbutton {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        max-width: 100%;
+        margin: auto;
+
+    }
+    .fstpara {
+        display: flex;
+        flex-direction: column;
+        font-size: 130%;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    .fstpara p {
+        width: 100%;
+    }
+    .fstpara h3 {
+        text-align: left;
+    }
+    .fstpdiv1, .fstpdiv2 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    img.middle-img {
+        width: 100%;
+        margin: 25px auto;
+    }
+    .smpara {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 35px;
+        font-size: 130%;
+    }
+    .smpara h3 {
+        text-align: left;
+    }
+    .smpara div {
+        margin-bottom: 15px;
+    }
+    .ctinfo {
+        font-size: 80%;
     }
 }
 
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
 
 }
 
